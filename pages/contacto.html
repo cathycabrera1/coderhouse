@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&family=Roboto:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CONTACTO</title>
+</head>
+
+<body class="fondo__contacto">
+    <header>
+        <nav class="navegacion">
+            <a href="../index.html"> <img src="../img/logo1.jpg" alt="Logo" class="logo"> </a>
+            <h1 class="titulo"> ANNABEL´S</h1>
+            <h2 class="titulo__subtitulo">BEAUTY SALON</h2>
+            <ul>
+                <li>
+                    <a href="../index.html">HOME </a>
+                </li>
+                <li>
+                    <a href="galeria.html">GALERIA</a>
+                </li>
+                <li>
+                    <a href="promociones.html">PROMOCIONES</a>
+                </li>
+                <li>
+                    <a href="ubicacion.html">UBICACIÓN</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3 class="formulario">FORMULARIO DE CONTACTO </h3>
+            <h4 class="formulario__relleno">Déjanos tus datos y te responderemos a la brevedad</h4>
+            <form>
+                <fieldset>
+                    <legend>Tus datos personales</legend>
+                    <div>
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="apellido">APELLIDO</label>
+                        <input type="text" id="apellido" placeholder="Apellido" required>
+                    </div>
+                    <div>
+                        <label for="sexo">SEXO</label>
+                        <select name="sexo" id="sexo">
+                            <option>HOMBRE
+                            <option>
+                            <option>MUJER</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="email">CORREO ELECTRONICO</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="contrasena">CONTRASEÑA</label>
+                        <input type="password" id="contrasena">
+                    </div>
+
+                    <div>
+                        <label for="comentarios">DEJANOS TU MENSAJE</label>
+                        <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <p class="promociones">¿Quieres recibir promociones?</p>
+                        <input type="radio" name="promociones" id="SI">
+                        <label for="SI">SI </label>
+
+
+                        <input type="radio" name="promociones" id="NO">
+                        <label for="NO">NO </label>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar" class="boton">
+                        <input type="reset" value="Limpiar" class="boton">
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="https://m.facebook.com/profile.php?id=100049554934940" target="_blank"> <img
+                src="../img/facebooklogo.png" alt="Siguenos en facebook" class="icono"></a>
+        <a href="https://www.instagram.com/nailsanabel2021/" target="_blank"> <img src="../img/instagramlogo.png"
+                alt="Seguinos en Instagram" class="icono"></a>
+        <p class="footer__parrafo">Todos los derechos reservados © 2022</p>
+        <p class="footer__parrafo">Design by Catherine Cabrera (proyecto Coderhouse)</p>
+
+    </footer>
+
+</body>
+
+</html>
